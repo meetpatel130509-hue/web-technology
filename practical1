@@ -1,1 +1,158 @@
-hiiii
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Meet Patel">
+    <meta name="description" content="Official website of green leaf company related to plants and farming.">
+    <title>ABC Technologies</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 >GREEN LEAF INDUSTRY</h1>
+        <img src="image copy.png" alt="green leaf industry Logo" width="380">
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Banner Section -->
+        <section id="home">
+            <h2>Welcome to green leaf industry</h2>
+            <img src="image.png" alt="Green leaf industry Banner" width="500" height="300">
+            <p>
+                We provide innovative plants and leaf related solutions and consulting for industries worldwide.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                green leaf industry is a leading towards how leaf will looking more greeny 
+                and innovation new spicies on the earth.
+            </p>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <ul>
+                <li>Artificial leaf Development</li>
+                <li>Medical department</li>
+                <li>Farm assurance</li>
+                <li>Enzymatic</li>
+            </ul>
+        </section>
+
+        <!-- Products -->
+        <section id="products">
+            <h2>Our Products</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>leaf extracts and herbs</td>
+                        <td>Food and medicine</td>
+                        <td>$50</td>
+                    </tr>
+
+                    <tr>
+                        <td>leaf fibers</td>
+                        <td>textile</td>
+                        <td>$350</td>
+                    </tr>
+
+                    <tr>
+                        <td>Inventory System</td>
+                        <td>Stock Management Software</td>
+                        <td>$250</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Featured Article -->
+        <article>
+            <h2>Featured Product</h2>
+            <p>
+                Our company is for helping farmers and inovating new spicies 
+                and improve productivity.
+            </p>
+        </article>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <address>
+                Leaf Group<br>
+                Santa Monica,California,United states<br>
+                Email:
+                <a href="meetpatel@leafgroup.com">leafgroup@.com</a><br>
+                Phone: +1 3109176400
+            </address>
+
+            <h3>Send Us a Message</h3>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ABC Technologies. All Rights Reserved.</p>
+
+        <p>
+            Follow us:
+            <a href="#">Facebook</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
